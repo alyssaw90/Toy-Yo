@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var Firebase = require('firebase')
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname+'/public'))
