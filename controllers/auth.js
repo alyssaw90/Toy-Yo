@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var Firebase = require('firebase');
+var firebase = require('firebase');
 
 router.get('/signup', function(req, res){
 	res.render('auth/signup.ejs')
