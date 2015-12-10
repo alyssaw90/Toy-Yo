@@ -9,6 +9,8 @@ app.get('/', function(req, res){
 	res.render('index')
 });
 
+app.use('/auth',require('./controllers/auth.js'));
+
 app.listen(3000, function(){
 	console.log('Server started on port 3000!')
 });
